@@ -84,3 +84,17 @@ curl -X POST http://127.0.0.1:4000/api/v1/surveys/create \
 - LLM integration requires valid credentials/config; fallback behavior depends on utils/llms.
 - Check core/config.py and frontend/.env.example for exact env variable names and examples.
 
+# Some Screens of the App
+
+- Survey Form
+![Image Screenshot Form](./screenshots/screenshot-form.png)
+
+- Survey view
+![Image Screenshot Survey](./screenshots/screenshot-survey.png)
+
+- Summary view
+![Image Screenshot Summary](./screenshots/screenshot-summary.png)
+
+
+**PD:** The goal is get build a realtime multiplayer app
+
