@@ -4,7 +4,7 @@ import { Separator } from "@/components/ui/Separator";
 import { useAppSelector } from "@/core/hooks/storeHooks";
 import { SurveySummary } from "@/core/models/SurveyModel";
 import SurveyService from "@/core/services/SurveyService";
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 import { BadgeCheckIcon, CircleUserRound } from "lucide-react";
 import { useEffect, useState } from "react";
 import { NavLink, useNavigate } from "react-router";

@@ -15,7 +15,7 @@ import type {
 } from "@/core/models/QuestionModel";
 import SurveyService from "@/core/services/SurveyService";
 import { updateLoading } from "@/core/store/slices/surveySlice";
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import { toast } from "sonner";
