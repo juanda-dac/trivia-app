@@ -88,7 +88,7 @@ export default function FormQuiz(){
                                     <FormItem>
                                         <FormLabel>Contexto</FormLabel>
                                         <FormControl>
-                                            <Textarea placeholder="Escribe el contexto o tema de lo que quieres..."  {...field} />
+                                            <Textarea placeholder="Escribe el contexto o tema de lo que quieres..."  {...field} className="max-h-[300px]" />
                                         </FormControl>
                                     </FormItem>
                                 )}
